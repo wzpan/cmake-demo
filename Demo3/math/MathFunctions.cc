@@ -5,7 +5,7 @@
  *
  * @return base raised to the power exponent.
  */
-extern double power(double base, int exponent)
+double power(double base, int exponent)
 {
     int result = base;
     int i;
