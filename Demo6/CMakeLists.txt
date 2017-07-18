@@ -4,6 +4,8 @@ cmake_minimum_required (VERSION 2.8)
 # 项目信息
 project (Demo6)
 
+set (CMAKE_INCLUDE_CURRENT_DIR ON)
+
 # 检查系统是否支持 pow 函数
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
 check_function_exists (pow HAVE_POW)
@@ -16,7 +18,8 @@ configure_file (
 
 # 是否加入 MathFunctions 库
 if (NOT HAVE_POW)
-  add_subdirectory (math)  
+  include_directories ("${PROJECT_SOURCE_DIR}/math")
+  add_subdirectory (math)
   set (EXTRA_LIBS ${EXTRA_LIBS} MathFunctions)
 endif (NOT HAVE_POW)
 

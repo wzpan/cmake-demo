@@ -4,5 +4,3 @@
 
 // does the platform provide pow function?
 #cmakedefine HAVE_POW
-#cmakedefine HAVE_LOG
-#cmakedefine HAVE_EXP
