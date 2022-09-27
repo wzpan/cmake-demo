@@ -1,8 +1,11 @@
 CMake 入门实战
 =====
 
-> 本仓库是 [CMake 入门实战](https://hahack.com/codes/cmake) 的源代码。为了方便 github pages 无法正常阅读的朋友，下面也附带上正文。
-> 为了您更好的阅读体验，不妨前往原博客阅读：<https://hahack.com/codes/cmake> 。
+> 本仓库是 [CMake 入门实战](https://hahack.com/codes/cmake) 的源代码。
+> 
+> 为了方便 github pages 无法正常阅读的朋友，下面也附带上正文。
+> 
+> 但为了您更好的阅读体验，不妨前往原博客阅读：<https://hahack.com/codes/cmake> 。
 
 ## 什么是 CMake ##
 
