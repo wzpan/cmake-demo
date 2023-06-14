@@ -220,7 +220,7 @@ aux_source_directory(. DIR_SRCS)
 add_subdirectory(math)
 
 # 指定生成目标 
-add_executable(Demo main.cc)
+add_executable(Demo ${DIR_SRCS})
 
 # 添加链接库
 target_link_libraries(Demo MathFunctions)
